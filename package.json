@@ -1,0 +1,24 @@
+{
+  "name": "authentication-skill-test",
+  "version": "1.0.0",
+  "description": "Prodia-Skill-Test-Authentication",
+  "main": "./src/server.js",
+  "scripts": {
+    "register": "npx functions-framework --target=register",
+    "login": "npx functions-framework --target=login",
+    "updatepass": "npx functions-framework --target=updatepass",
+    "update": "npx functions-framework --target=update"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.1.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1",
+    "redis": "^4.6.5",
+    "yup": "^1.0.2"
+  }
+}
